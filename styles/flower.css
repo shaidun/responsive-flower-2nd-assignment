@@ -49,3 +49,48 @@
   height: 24px;
 
 }
+
+/* banner section */
+
+
+.banner {
+  display: flex;
+  align-items: flex-end;
+  max-width: 1140px;
+  margin: 120px auto 0 auto; 
+  /* border: 2px solid green; */
+
+}
+
+.banner-text,
+.banner-image
+{
+ 
+  max-width: 50%;
+
+}
+.banner-image{
+  margin-top: 106px;
+}
+.banner-title {
+  font-size: 56px;
+  font-weight: 800;
+ 
+}
+
+.flower {
+  color: #E95A08;
+}
+
+.banner-description {
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
