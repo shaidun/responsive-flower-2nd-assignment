@@ -100,17 +100,23 @@
 /* responsive media query */
 
 @media screen and (max-width: 576px){
+  .navbar,
+  .banner-text {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .nav-links li {
     display: none;
   }
   .nav-links li.cart-icon {
     display: flex; 
   }
+  
 
   /* banner */
   .banner {
     flex-direction: column-reverse;
-    margin: 40px 20px 0 20px;
+   
   }
 
   .banner-image {
