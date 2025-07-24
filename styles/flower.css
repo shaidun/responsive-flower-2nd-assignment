@@ -106,5 +106,26 @@
   .nav-links li.cart-icon {
     display: flex; 
   }
+
+  /* banner */
+  .banner {
+    flex-direction: column-reverse;
+    margin: 40px 20px 0 20px;
+  }
+
+  .banner-image {
+    margin-top: 28px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .banner-text {
+    max-width: 100%;
+  }
+
+  .banner-title,
+  .banner-description {
+    text-align: left;
+  }
 }
 
