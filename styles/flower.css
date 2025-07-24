@@ -1,5 +1,5 @@
 
-@import "tailwindcss"
+@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 .noto-serif-font {
@@ -10,6 +10,16 @@
 }
 
 /* shared styles */
+
+/* for head line color */
+.banner-title {
+  font-size: 56px;
+  font-weight: 800;
+ 
+}
+.flower {
+  color: #E95A08;
+}
 
 /* navbar styles */
 .logo img{
@@ -62,8 +72,7 @@
 
 }
 
-.banner-text,
-.banner-image
+.banner-text
 {
  
   max-width: 50%;
@@ -71,15 +80,7 @@
 }
 .banner-image{
   margin-top: 106px;
-}
-.banner-title {
-  font-size: 56px;
-  font-weight: 800;
- 
-}
-
-.flower {
-  color: #E95A08;
+  max-width: 50%;
 }
 
 .banner-description {
@@ -94,3 +95,16 @@
   height: auto;
   display: block;
 }
+
+
+/* responsive media query */
+
+@media screen and (max-width: 576px){
+  .nav-links li {
+    display: none;
+  }
+  .nav-links li.cart-icon {
+    display: flex; 
+  }
+}
+
