@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Responsive Flower</title>
     <link rel="stylesheet" href="styles/flower.css">
 </head>
-<body>
+
+<body class="noto-serif-font">
     <header>
-        <nav>
-            <img src="assets/logo.png" alt="">
+        <nav class="navbar flex">
+
+            <div class="logo">
+                <img src="assets/logo.png" alt="logo">
+            </div>
+            <!-- navigation link -->
+
+            <ul class="nav-links flex">
+                <li><a href="" class="nav-link">Shop</a></li>
+                <li><a href="" class="nav-link">About Us</a></li>
+                <li><a href="" class="nav-link">Home</a></li>
+                <li class="cart-icon flex">
+                    <a href="" class="nav-link "><img src="assets/cart.png" alt=""> Cart ($56)</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -19,4 +35,5 @@
 
     </footer>
 </body>
+
 </html>
