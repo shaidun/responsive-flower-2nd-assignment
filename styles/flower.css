@@ -200,7 +200,8 @@
 @media screen and (max-width: 576px){
   .navbar,
   .banner-text,
-  .plants-content
+  .plants-content,
+  .plant-lover-img
    {
     padding-left: 16px;
     padding-right: 16px;
@@ -214,7 +215,8 @@
   
 
   /* banner */
-  .banner {
+  .banner
+   {
     flex-direction: column-reverse;
    
   }
@@ -245,5 +247,27 @@
     padding-right: 16px;
     gap: 20px;
   }
+  
+  /* plant lover section */
+  .plant-lover{
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  #badge-img{
+    display: none;
+    
+  }
+  .plant-lover-content{
+    text-align: left;
+    margin-left: 10px;
+    width: 361px;
+    
+  }
+  .plant-lover-title{
+    font-size: 1.65rem;
+    margin-bottom: 20px;
+  }
+  
 }
 
