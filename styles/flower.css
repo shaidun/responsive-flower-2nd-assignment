@@ -120,6 +120,7 @@
   grid-template-columns: repeat(4, 1fr);
   max-width: 1140px;
   margin: 0 auto;
+   gap: 20px;
  
   
 }
@@ -153,7 +154,9 @@
 
 @media screen and (max-width: 576px){
   .navbar,
-  .banner-text {
+  .banner-text,
+  .plants-content
+   {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -184,6 +187,18 @@
   .banner-title,
   .banner-description {
     text-align: left;
+  }
+
+  /* plant section */
+  .plant-description{
+    text-align: center;
+  }
+  .plant-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     padding-left: 16px;
+    padding-right: 16px;
+    gap: 20px;
   }
 }
 
